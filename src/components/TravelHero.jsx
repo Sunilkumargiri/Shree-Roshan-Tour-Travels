@@ -32,7 +32,7 @@ export default function TravelHero() {
   }, [slides.length]);
 
   return (
-    <div className="relative h-screen -mt-16 w-full overflow-hidden bg-stone-950 flex items-center justify-center">
+    <div id="home" className="relative h-screen -mt-16 w-full overflow-hidden bg-stone-950 flex items-center justify-center">
 
       {/* Background Image Slider */}
       {slides.map((slide, index) => (
